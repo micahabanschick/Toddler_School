@@ -45,6 +45,10 @@
   border: .5em double red;
 }
 
+.App-block img {
+  width: 100%;
+}
+
 .App-footer {
   background-color: #282c34;
   min-height: 30vh;
