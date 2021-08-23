@@ -5,7 +5,7 @@ import Blocks from '../components/blocks'
 export class BlocksContainer extends Component {
     render() {
         return (
-            <div>
+            <div className="App-blocks-container">
                 <Blocks/>
             </div>
         )

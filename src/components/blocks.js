@@ -63,8 +63,8 @@ export default class Blocks extends Component {
             <div>
                 <Grid container spacing={3}>
                 {[1,2,3,4,5,6].map((value, index) => (
-                    <Grid item xs={3}>
-                        <Paper className={classes.paper}>xs=3
+                    <Grid item xs={4}>
+                        <Paper className={classes.paper}>
                             <Block id={index + 1} key={index} />
                         </Paper>
                     </Grid>
