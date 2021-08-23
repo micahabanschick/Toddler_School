@@ -7,9 +7,9 @@ import { BlocksContainer } from './containers/blocks_container';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <BlocksContainer/>
-      <Footer/>
+      <Header className="App-header"/>
+      <BlocksContainer className="App-blocks-container"/>
+      <Footer className="App-footer"/>
     </div>
   );
 }
