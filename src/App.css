@@ -40,6 +40,11 @@
   padding: 7em;
 }
 
+.App-block {
+  min-height: 30vh;
+  border: .5em double red;
+}
+
 .App-footer {
   background-color: #282c34;
   min-height: 30vh;
