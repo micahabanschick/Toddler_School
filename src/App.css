@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-color: hsl(0, 0%, 96%);
+  background-color: #c9c3c3;
+  /* background-color: #282c34; */
   min-height: 100vh;
   padding: 2em;;
 }
@@ -17,8 +18,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #c9c3c3;
+  /* background-color: #282c34; */
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,8 +29,14 @@
   color: white;
 }
 
+.App-header img {
+  width: 100%;
+  border: .5em double rgb(211, 156, 236);
+  /* padding: 7em; */
+}
+
 .App-blocks-container {
-  background-color: #282c34;
+  background-color: hsl(0, 0%, 96%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,17 +44,29 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  border: .5em double red;
-  padding: 7em;
+  border: .5em double rgb(212, 129, 212);
+  padding: 3em;
 }
 
 .App-block {
   min-height: 30vh;
-  border: .5em double red;
+  width: auto;
+  height:30vh;
+  padding:1rem;
+  border: .5em double rgb(153, 235, 133);
+}
+
+.App-block:nth-child(1) {
+  background-color: rgb(101, 198, 255);
+}
+
+.App-block:nth-child(6n) {
+  background-color: rgb(77, 219, 101);
 }
 
 .App-block img {
-  width: 100%;
+  max-width: 70%;
+  max-height:80%;
 }
 
 .App-footer {
