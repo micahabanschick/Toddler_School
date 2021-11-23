@@ -3,6 +3,8 @@ import Block from './block'
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
+// import placeholderImage from '../assets/images/placeholder.png'
+// import placeholderImage from '../assets/images/placeholder.png'
 
 const classes = makeStyles((theme) => ({
   root: {
@@ -61,15 +63,16 @@ export default class Blocks extends Component {
             //     </Grid>
             // </div>
             <div>
-                <Grid container spacing={3}>
-                {[1,2,3,4,5,6].map((value, index) => (
+            <Grid container spacing={3}>
+                {[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20].map((value, index) => (
                     <Grid item xs={4}>
                         <Paper className={classes.paper}>
                             <Block id={index + 1} key={index} />
                         </Paper>
                     </Grid>
                 ))}
-                </Grid>
+                        
+            </Grid>
             </div>
             // <div>
             //     {[1,2,3,4,5].map((value, index) => (
